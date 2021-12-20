@@ -1,0 +1,5 @@
+*.env
+*.pem
+*.exe
+*node_modules
+*lock.json

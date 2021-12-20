@@ -1,0 +1,25 @@
+{
+  "name": "apple_books_api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": ">=11.0.0",
+    "npm": ">=6.4.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.19.0",
+    "debug": "~4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "~4.17.1",
+    "express-jwt": "^6.1.0",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.13",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "pusher": "^5.0.0"
+  }
+}
